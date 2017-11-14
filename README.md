@@ -1,4 +1,4 @@
-# identicon
+# avatar_generator
 哈希头像图片生成器 Python代码
 
 Identicon 在很多大型IT网站上可以见到,比如 Github, Sourceforge, Stackoveflow 等等,
@@ -19,3 +19,7 @@ img= identicon.render_identicon(code, 16)
 ````
 这里的code是一个数值, 或者字符串数值, 如果code比较大, 比如code=10000000, 生成的图片就是彩色的.
 code比较小, 比如code=1~100之间的, 生成的图片就是黑白色的.
+
+
+
+
